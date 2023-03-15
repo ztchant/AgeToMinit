@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="pick_a_date">PICK A DATE</string>
+    <string name="minutes">minutes</string>
+    <string name="_2565525">2565525</string>
+    <string name="your_age_to_minutes_is">Your age To Minutes is :</string>
+    <string name="_00_00_0000">00/00/0000</string>
+    <string name="your_earned_date_is">Your earned date is :</string>
+    <string name="pick_a_adate">pick a adate</string>
+    <string name="pick_your_date_of_birh">Pick your date of birh</string>
+    <string name="age_to_minute">Age To Minute</string>
 </resources>

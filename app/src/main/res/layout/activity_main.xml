@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="50sp"
-        android:text="Age To Minute"
+        android:text="@string/age_to_minute"
         android:textColor="@color/yellow"
         android:textSize="50sp"
         android:textStyle="bold"
@@ -26,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="50sp"
-        android:text="Pick your date of birh"
+        android:text="@string/pick_your_date_of_birh"
         android:textColor="@color/yellow"
         android:textSize="20sp" />
 
@@ -38,7 +37,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="50sp"
         android:background="@drawable/buttonshape"
-        android:text="pick a adate"
+        android:text="@string/pick_a_adate"
         android:textColor="@color/beige"
         android:textStyle="bold"
 
@@ -46,12 +45,12 @@
         />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@id/enteredDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="50sp"
-        android:text="Your earned date is :"
+        android:text="@string/your_earned_date_is"
         android:textColor="@color/yellow"
         android:textSize="20sp" />
 
@@ -61,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="50sp"
-        android:text="00/00/0000"
+        android:text="@string/_00_00_0000"
         android:textColor="@color/beige"
         android:textSize="20sp" />
 
@@ -71,7 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="50sp"
-        android:text="Your age To Minutes is :"
+        android:text="@string/your_age_to_minutes_is"
         android:textColor="@color/yellow"
         android:textSize="20sp" />
 
@@ -87,7 +86,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="2565525"
+            android:text="@string/_2565525"
             android:textColor="@color/yellow"
             android:textSize="70sp"
             android:textStyle="bold" />
@@ -97,7 +96,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:text="minutes"
+            android:text="@string/minutes"
             android:textColor="@color/beige" />
 
 
